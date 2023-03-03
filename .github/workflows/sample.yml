@@ -5,9 +5,9 @@ on: push
 jobs:
     run-shell-command:
       runs-on: ubuntu-latest
-        steps:
+      steps:
           - name: present working directory
-            run: pwd
+            run: ls -ll
           - name: creates a directory
             run: |
               mkdir dir1
