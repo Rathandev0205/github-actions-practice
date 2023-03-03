@@ -1,0 +1,16 @@
+name: my first workflow
+
+on: push
+
+jobs:
+    run-shell-command:
+      runs-on: ubuntu-latest
+        steps:
+          - name: present working directory
+            run: pwd
+          - name: creates a directory
+            run: |
+              mkdir dir1
+              cd dir1
+            
+          
