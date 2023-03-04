@@ -10,9 +10,9 @@ jobs:
           run: ls -ll
         - name: clear
           run: clear
-        - name: python
-          run: print('hello world')
-          shell: python
+        # - name: python
+        #   run: print('hello world')
+        #   shell: python
 
     
     
