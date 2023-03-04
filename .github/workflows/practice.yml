@@ -6,10 +6,10 @@ jobs:
     run-shell-command:
       runs-on: ubuntu-latest
       steps:
-        - name: list
-          run: ls -ll
-        - name: clear
-          run: clear
+            - name: list
+              run: ls -ll
+            - name: clear
+              run: clear
         # - name: python
         #   run: print('hello world')
         #   shell: python
