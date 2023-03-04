@@ -8,8 +8,8 @@ jobs:
     steps:
       - name: list
         run: ls -ll
-      - name: clear
-        run: clear
+      - name: make dir
+        run: mkdir dir2
       # - name: python
       #   run: print('hello world')
       #   shell: python
