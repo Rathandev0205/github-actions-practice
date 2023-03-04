@@ -1,18 +1,16 @@
-name: workflow practice
+name: my first workflow
 
-on: [push,pull_request]
+on: push
 
-jobs: 
+jobs:
     run-shell-command:
       runs-on: ubuntu-latest
       steps:
-            - name: list
-              run: ls -ll
-            - name: clear
-              run: clear
-        # - name: python
-        #   run: print('hello world')
-        #   shell: python
-
-    
-    
+          - name: present working directory
+            run: ls -ll
+          - name: creates a directory
+            run: |
+              mkdir dir1
+              cd dir1
+            
+          
